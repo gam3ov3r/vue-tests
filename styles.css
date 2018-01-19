@@ -1,14 +1,30 @@
-span{
-	background: red;
-	display: inline-block;
-	padding: 10px;
-	color: #fff;
-	margin: 10px 0;
+#trump {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background: url(/img/trump.jpg) center no-repeat;
+	background-size: 90%; 
 }
-.active span{
-	background: green;
+#trump.sad {
+	width: 300px;
+	height: 300px;
+	margin: 0 auto;
+	background: url(/img/trump-sad.jpg) center no-repeat;
+	background-size: 90%;
 }
-.inactive span:after{
-	content: "sorry";
-	margin-left: 10px;
+
+#trump-health {
+	width: 300px;
+	border: 2px solid #000;
+	margin: 0 auto 20px auto;
+}
+
+#trump-health div {
+	height: 20px;
+	background: crimson;
+}
+
+#controls {
+	width: 120px;
+	margin: 0 auto;
 }
